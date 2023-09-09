@@ -1,4 +1,4 @@
-# DioramaBlender
+# Piramide de Cubos
 
-![image](https://github.com/Fanterlum/DioramaBlender/assets/73490758/c0e9bf10-bc18-4e86-9979-54ebadaf4e81)
-![image](https://github.com/Fanterlum/DioramaBlender/assets/73490758/a417bc73-7e82-4baa-8380-aee6d9bbe4d8)
+![image](https://github.com/Fanterlum/DioramaBlender/assets/73490758/99e662f6-0e35-4d4b-a514-3e662eb95f07)
+![image](https://github.com/Fanterlum/DioramaBlender/assets/73490758/2ddeb5f7-9a4b-40a1-9302-d8eaf4547d37)

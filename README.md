@@ -18,3 +18,7 @@
 ![Screenshot_3](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/e13f1ae9-25cb-41d7-afb3-b33de2903fd6)
 ![Screenshot_1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/c7a55e79-c113-44de-af48-04a44c75bcc2)
 
+# Practica 06 Simulación humo y fuego
+![Animation](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/02ec6822-e244-4b89-879b-891614f7fa06)
+![Screenshot_2](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/758f19fb-e179-47e4-a176-da397f71bbc4)
+![Screenshot_1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/74ae0c4f-9523-4277-9d81-a488f18d4bd0)

@@ -6,3 +6,9 @@
 # Practica 03 Personaje Pato
 ![foto1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/0ffeebf3-743d-45fc-901e-434cfd837c54)
 ![foto2](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/f2400cce-947d-449e-b18e-3bade84d55ae)
+
+# Practica 04 Simulación Colisión
+
+![Animation](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/6ce7ab77-47b8-405f-b4d1-15f8dcb1a5ec)
+![Screenshot_1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/e5918046-9c61-486a-aa3e-019581bbb4c4)
+![Screenshot_2](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/2ef88a20-1b31-4438-8478-f31ea96c41e6)

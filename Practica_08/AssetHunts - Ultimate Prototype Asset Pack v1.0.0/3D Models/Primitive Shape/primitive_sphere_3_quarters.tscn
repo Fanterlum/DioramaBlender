@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2lpmuf2rsdel"]
+
+[ext_resource type="PackedScene" uid="uid://cmec173sxq06p" path="res://Source File/Primitive Shape/Primitive_Sphere_3_Quarters.glb" id="1_tp0kj"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_vofds"]
+
+[node name="Primitive_Sphere_3_Quarters" instance=ExtResource("1_tp0kj")]
+
+[node name="Primitive_Sphere_3_Quarters2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_vofds")

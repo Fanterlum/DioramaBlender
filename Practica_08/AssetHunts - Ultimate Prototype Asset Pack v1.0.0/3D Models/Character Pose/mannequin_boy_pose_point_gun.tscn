@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bad2383yf2ydo"]
+
+[ext_resource type="PackedScene" uid="uid://bojo6n0b6fvva" path="res://Source File/Character Pose/MannequinBoy_Pose_Point_Gun.glb" id="1_psioc"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_kh8w6"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_eqbej"]
+
+[node name="MannequinBoy_Pose_Point_Gun" instance=ExtResource("1_psioc")]
+
+[node name="MannequinBoy_Pose_Point_Gun2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_kh8w6")
+
+[node name="CollisionShape3D" parent="MannequinBoy_Pose_Point_Gun2/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_eqbej")

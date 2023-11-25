@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dt6evayds6of3"]
+
+[ext_resource type="PackedScene" uid="uid://dqchcjv4vj4x4" path="res://Source File/Character Pose/MannequinBoy_Running.glb" id="1_7flbs"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_jb7ng"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a5fvp"]
+
+[node name="MannequinBoy_Running" instance=ExtResource("1_7flbs")]
+
+[node name="MannequinBoy_Running2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_jb7ng")
+
+[node name="CollisionShape3D" parent="MannequinBoy_Running2/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_a5fvp")

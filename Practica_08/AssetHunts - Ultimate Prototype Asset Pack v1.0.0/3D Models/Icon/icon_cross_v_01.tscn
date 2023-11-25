@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cq0icekqckldn"]
+
+[ext_resource type="PackedScene" uid="uid://dkmafeu4y11qp" path="res://Source File/Icon/Icon_Cross_v01.glb" id="1_5gjol"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_yj8h6"]
+
+[node name="Icon_Cross_v01" instance=ExtResource("1_5gjol")]
+
+[node name="Icon_Cross_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_yj8h6")

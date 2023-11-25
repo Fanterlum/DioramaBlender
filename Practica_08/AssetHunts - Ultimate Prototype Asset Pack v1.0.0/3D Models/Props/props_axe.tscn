@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b418lyiruclh4"]
+
+[ext_resource type="PackedScene" uid="uid://crht0qyjrcir3" path="res://Source File/Props/Props_Axe.glb" id="1_2fnyl"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_8xdxg"]
+
+[node name="Props_Axe" instance=ExtResource("1_2fnyl")]
+
+[node name="Props_Axe2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_8xdxg")

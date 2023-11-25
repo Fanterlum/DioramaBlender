@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://wj3nd4hpl0ru"]
+
+[ext_resource type="PackedScene" uid="uid://c8u8qn5i2r6q0" path="res://Source File/Primitive Shape/Primitive_Cone_v02.glb" id="1_gl0xj"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_j4xtu"]
+
+[node name="Primitive_Cone_v02" instance=ExtResource("1_gl0xj")]
+
+[node name="Primitive_Cone_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_j4xtu")

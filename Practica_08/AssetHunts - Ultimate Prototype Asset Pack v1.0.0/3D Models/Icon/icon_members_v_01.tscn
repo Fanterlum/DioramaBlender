@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cysdbsbs6kioc"]
+
+[ext_resource type="PackedScene" uid="uid://ct4lq8cobb53t" path="res://Source File/Icon/Icon_Members_v01.glb" id="1_pbaes"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_arpon"]
+
+[node name="Icon_Members_v01" instance=ExtResource("1_pbaes")]
+
+[node name="Icon_Members_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_arpon")

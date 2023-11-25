@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bj3pupvttlaar"]
+
+[ext_resource type="PackedScene" uid="uid://lxr3kjvua1t5" path="res://Source File/Icon/Icon_Wi-fi_v01.glb" id="1_j6b0s"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_0dy5m"]
+
+[node name="Icon_Wi-fi_v01" instance=ExtResource("1_j6b0s")]
+
+[node name="Icon_Wi-fi_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_0dy5m")

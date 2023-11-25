@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr0lkm0nwu524"]
+
+[ext_resource type="Script" path="res://start.gd" id="1_dx1w2"]
+[ext_resource type="Texture2D" uid="uid://cka1wl7x8n2ba" path="res://intro.png" id="1_kqfvu"]
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_dx1w2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(978.25, 562.625)
+scale = Vector2(1.93336, 1.81025)
+texture = ExtResource("1_kqfvu")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

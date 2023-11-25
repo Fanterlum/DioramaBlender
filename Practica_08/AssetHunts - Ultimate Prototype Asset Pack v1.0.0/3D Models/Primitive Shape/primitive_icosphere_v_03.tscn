@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgrlasic2y4qa"]
+
+[ext_resource type="PackedScene" uid="uid://b2t7rmgl6at16" path="res://Source File/Primitive Shape/Primitive_Icosphere_v03.glb" id="1_4uuam"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_k5hj5"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_eup3r"]
+
+[node name="Primitive_Icosphere_v03" instance=ExtResource("1_4uuam")]
+
+[node name="Primitive_Icosphere_v032" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_k5hj5")
+
+[node name="CollisionShape3D" parent="Primitive_Icosphere_v032/StaticBody3D" index="0"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("SphereShape3D_eup3r")

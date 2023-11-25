@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://clcoibedg65pv"]
+
+[ext_resource type="PackedScene" uid="uid://bna22lhugks3e" path="res://Source File/Wall/Wall_Block_Corner_v01.glb" id="1_5an2s"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_t3kow"]
+
+[node name="Wall_Block_Corner_v01" instance=ExtResource("1_5an2s")]
+
+[node name="Wall_Block_Corner_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_t3kow")

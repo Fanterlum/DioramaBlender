@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dufch5e4qawwe"]
+
+[ext_resource type="PackedScene" uid="uid://5y67jjufm24a" path="res://Source File/Icon/Icon_Alert_Question_v01.glb" id="1_o732u"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_ql61k"]
+
+[node name="Icon_Alert_Question_v01" instance=ExtResource("1_o732u")]
+
+[node name="Icon_Alert_Question_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_ql61k")

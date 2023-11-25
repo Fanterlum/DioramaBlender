@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://sy82lb1lsrd4"]
+
+[ext_resource type="PackedScene" uid="uid://ddy7kxqcclhld" path="res://3D Models/Floor/floor_01x_01_inner_curve_v_01_A.tscn" id="1_5vibi"]
+[ext_resource type="Material" uid="uid://b1g5lnah3wojw" path="res://Material/Grid_01_B.tres" id="2_xo33h"]
+
+[node name="Floor_01x01_Inner_Curve_v01" instance=ExtResource("1_5vibi")]
+
+[node name="Floor_01x01_Inner_Curve_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_xo33h")

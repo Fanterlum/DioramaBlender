@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkvpathusmruw"]
+
+[ext_resource type="PackedScene" uid="uid://dfafesb4fkvj5" path="res://Source File/Block/Block_Grab_Box_v01.glb" id="1_g8gj3"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_u4phh"]
+
+[node name="Block_Grab_Box_v01" instance=ExtResource("1_g8gj3")]
+
+[node name="Block_Grab_Box_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_u4phh")

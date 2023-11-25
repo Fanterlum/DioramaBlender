@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4vp7gwv133lm"]
+
+[ext_resource type="PackedScene" uid="uid://1jlose74b3pw" path="res://Source File/Icon/Icon_Stop_v01.glb" id="1_2o63k"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_1kylg"]
+
+[node name="Icon_Stop_v01" instance=ExtResource("1_2o63k")]
+
+[node name="Icon_Stop_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_1kylg")

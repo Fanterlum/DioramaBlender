@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7r0oeaxesks5"]
+
+[ext_resource type="PackedScene" uid="uid://c5qkrmcflksrv" path="res://Source File/Pillar/Pillar_Broken_v05.glb" id="1_lfdk7"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_3hjan"]
+
+[node name="Pillar_Broken_v05" instance=ExtResource("1_lfdk7")]
+
+[node name="Pillar_Broken_v052" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_3hjan")

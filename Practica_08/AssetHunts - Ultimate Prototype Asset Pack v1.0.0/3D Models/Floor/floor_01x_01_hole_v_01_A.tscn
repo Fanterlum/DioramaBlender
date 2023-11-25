@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbbxi68wm7y3u"]
+
+[ext_resource type="PackedScene" uid="uid://dw453a7yjvjc8" path="res://Source File/Floor/Floor_01x01_Hole_v01.glb" id="1_rvi0k"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_ydc24"]
+
+[node name="Floor_01x01_Hole_v01" instance=ExtResource("1_rvi0k")]
+
+[node name="Floor_01x01_Hole_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_ydc24")

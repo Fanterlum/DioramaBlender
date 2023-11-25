@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpayrk7kwo881"]
+
+[ext_resource type="PackedScene" uid="uid://djt5p7wqd21o5" path="res://Source File/Plant/Tree_02.glb" id="1_3kmdo"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_oc1x4"]
+
+[node name="Tree_02" instance=ExtResource("1_3kmdo")]
+
+[node name="Tree_022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_oc1x4")

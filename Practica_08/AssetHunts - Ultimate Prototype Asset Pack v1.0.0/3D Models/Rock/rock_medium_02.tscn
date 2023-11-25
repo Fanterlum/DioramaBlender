@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ldov1upk4qqe"]
+
+[ext_resource type="PackedScene" uid="uid://cgqai62tfb8xc" path="res://Source File/Rock/Rock_Medium_02.glb" id="1_d05pg"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_pwcql"]
+
+[node name="Rock_Medium_02" instance=ExtResource("1_d05pg")]
+
+[node name="Rock_Medium_022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_pwcql")

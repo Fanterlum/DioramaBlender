@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://2rbohqp63mqr"]
+
+[ext_resource type="PackedScene" uid="uid://dbqhdny0qcuh2" path="res://Source File/Props/Props_Manhole_Cover.glb" id="1_16eup"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_3cdh6"]
+
+[node name="Props_Manhole_Cover" instance=ExtResource("1_16eup")]
+
+[node name="Props_Manhole_Cover2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_3cdh6")

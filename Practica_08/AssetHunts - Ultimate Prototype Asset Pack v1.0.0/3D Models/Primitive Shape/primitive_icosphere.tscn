@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsec2owpcosj6"]
+
+[ext_resource type="PackedScene" uid="uid://bwlqi7ed31ema" path="res://Source File/Primitive Shape/Primitive_Icosphere.glb" id="1_m7e0p"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_kkdl5"]
+
+[node name="Primitive_Icosphere" instance=ExtResource("1_m7e0p")]
+
+[node name="Primitive_Icosphere2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_kkdl5")

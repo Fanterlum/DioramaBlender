@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqx3or551sl40"]
+
+[ext_resource type="PackedScene" uid="uid://db1rxt77e3gbh" path="res://Source File/Icon/Icon_Star_v02.glb" id="1_h8wyw"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_7og28"]
+
+[node name="Icon_Star_v02" instance=ExtResource("1_h8wyw")]
+
+[node name="Icon_Star_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_7og28")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6fnqjy7t43ar"]
+
+[ext_resource type="PackedScene" uid="uid://b8irbln7xck2d" path="res://Source File/Sci-Fi Corridor/Sci-Fi_Corridor_4_Way_v01.glb" id="1_27qsw"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_wcsga"]
+
+[node name="Sci-Fi_Corridor_4_Way_v01" instance=ExtResource("1_27qsw")]
+
+[node name="Sci-Fi_Corridor_4_Way_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_wcsga")

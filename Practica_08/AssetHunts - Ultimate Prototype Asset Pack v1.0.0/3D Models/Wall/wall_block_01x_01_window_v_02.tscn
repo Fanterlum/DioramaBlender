@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dumchy8sv0onj"]
+
+[ext_resource type="PackedScene" uid="uid://d1wuc4bsdexe3" path="res://Source File/Wall/Wall_Block_01x01_Window_v02.glb" id="1_upp57"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_rht71"]
+
+[node name="Wall_Block_01x01_Window_v02" instance=ExtResource("1_upp57")]
+
+[node name="Wall_Block_01x01_Window_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_rht71")
+
+[node name="Window_v01_A_001" parent="Wall_Block_01x01_Window_v022" index="0"]
+surface_material_override/0 = ExtResource("2_rht71")
+
+[node name="Window_v01_B_001" parent="Wall_Block_01x01_Window_v022" index="1"]
+surface_material_override/0 = ExtResource("2_rht71")

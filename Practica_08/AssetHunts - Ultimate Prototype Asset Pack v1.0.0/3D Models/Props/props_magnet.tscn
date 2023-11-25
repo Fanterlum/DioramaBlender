@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cotcohwqup7e0"]
+
+[ext_resource type="PackedScene" uid="uid://cxf4pd6sd5lpv" path="res://Source File/Props/Props_Magnet.glb" id="1_q1f7r"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_rugmo"]
+
+[node name="Props_Magnet" instance=ExtResource("1_q1f7r")]
+
+[node name="Props_Magnet2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_rugmo")

@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://bee2xkdjpkttd"]
+
+[ext_resource type="Shader" uid="uid://fkan2c8ara63" path="res://Material/Shader/Grid_Shader_AssetHunts.tres" id="1_w7yjo"]
+[ext_resource type="Texture2D" uid="uid://2xkuhe18bmtt" path="res://Material/Grid/Grid_02.svg" id="2_8klx6"]
+[ext_resource type="Texture2D" uid="uid://cmtiws8pbe0le" path="res://Material/Texture/AssetHunts_Ultimate_Prototype_Kit_Color_Palette_01.tres.svg" id="3_6myut"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_w7yjo")
+shader_parameter/Color = Color(1, 1, 1, 1)
+shader_parameter/triplanar_scale = Vector3(1, 1, 1)
+shader_parameter/triplanar_offset = null
+shader_parameter/triplanar_sharpness = 10.0
+shader_parameter/Texture = ExtResource("3_6myut")
+shader_parameter/Grid = ExtResource("2_8klx6")

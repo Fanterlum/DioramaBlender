@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bftikyu16u72t"]
+
+[ext_resource type="PackedScene" uid="uid://d3sc0p1lcwn5j" path="res://Source File/Wall/Wall_Window.glb" id="1_am8jx"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_qldvx"]
+
+[node name="Wall_Window" instance=ExtResource("1_am8jx")]
+
+[node name="Wall_Window2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_qldvx")
+
+[node name="Window_v01_A" parent="Wall_Window2" index="0"]
+surface_material_override/0 = ExtResource("2_qldvx")
+
+[node name="Window_v01_B" parent="Wall_Window2" index="1"]
+surface_material_override/0 = ExtResource("2_qldvx")

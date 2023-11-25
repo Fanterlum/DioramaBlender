@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2x05h8m5g6il"]
+
+[ext_resource type="PackedScene" uid="uid://2sj2dbbbp017" path="res://3D Models/Primitive Shape/primitive_block_01x_01_A.tscn" id="1_pb4qw"]
+[ext_resource type="Material" uid="uid://bf142en0mv2bk" path="res://Material/Grid_01_C.tres" id="2_2nn3v"]
+
+[node name="Primitive_Block_01x01" instance=ExtResource("1_pb4qw")]
+
+[node name="Primitive_Block_01x012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_2nn3v")

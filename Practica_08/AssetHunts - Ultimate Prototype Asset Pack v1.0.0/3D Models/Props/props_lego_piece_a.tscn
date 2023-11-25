@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bipcmlwnx5thn"]
+
+[ext_resource type="PackedScene" uid="uid://dxkijs4vpw7hi" path="res://Source File/Props/Props_Lego_Piece_A.glb" id="1_xmii2"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_y8f3c"]
+
+[node name="Props_Lego_Piece_A" instance=ExtResource("1_xmii2")]
+
+[node name="Props_Lego_Piece_A2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_y8f3c")

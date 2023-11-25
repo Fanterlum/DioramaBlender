@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dauusfy36qbax"]
+
+[ext_resource type="PackedScene" uid="uid://b3rm8sgrfep4x" path="res://Source File/Crate/Crate_01_Exclamation.glb" id="1_05hru"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://3D Models/Materials/Color_Palette_01.tres" id="2_7rvyq"]
+
+[node name="Crate_01_Exclamation" instance=ExtResource("1_05hru")]
+
+[node name="Crate_01_Exclamation2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_7rvyq")

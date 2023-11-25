@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://e5n4vmv5kk7y"]
+
+[ext_resource type="PackedScene" uid="uid://b0ofxgy7kurw" path="res://Source File/Barricade/Barricade_Plastic_v01.glb" id="1_pyonv"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://3D Models/Materials/Color_Palette_01.tres" id="2_dpc6l"]
+
+[node name="Barricade_Plastic_v01" instance=ExtResource("1_pyonv")]
+
+[node name="Barricade_Plastic_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_dpc6l")

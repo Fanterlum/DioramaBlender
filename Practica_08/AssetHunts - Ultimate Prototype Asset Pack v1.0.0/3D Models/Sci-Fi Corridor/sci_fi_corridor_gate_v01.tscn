@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfdbdbpx4i8ej"]
+
+[ext_resource type="PackedScene" uid="uid://c0esoo3oi8mpr" path="res://Source File/Sci-Fi Corridor/Sci-Fi_Corridor_Gate_v01.glb" id="1_ol21j"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_aroxo"]
+
+[node name="Sci-Fi_Corridor_Gate_v01" instance=ExtResource("1_ol21j")]
+
+[node name="Sci-Fi_Corridor_Gate_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_aroxo")
+
+[node name="Gate_01" parent="Sci-Fi_Corridor_Gate_v012" index="0"]
+surface_material_override/0 = ExtResource("2_aroxo")
+
+[node name="Gate_02" parent="Sci-Fi_Corridor_Gate_v012" index="1"]
+surface_material_override/0 = ExtResource("2_aroxo")

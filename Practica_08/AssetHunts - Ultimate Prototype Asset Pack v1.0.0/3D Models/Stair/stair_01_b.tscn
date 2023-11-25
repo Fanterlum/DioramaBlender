@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bagvtej06ervr"]
+
+[ext_resource type="PackedScene" uid="uid://ll5wypxn7s7b" path="res://Source File/Stair/Stair_01_B.glb" id="1_k31qo"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_mnte0"]
+
+[node name="Stair_01_B" instance=ExtResource("1_k31qo")]
+
+[node name="Stair_01_B2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_mnte0")

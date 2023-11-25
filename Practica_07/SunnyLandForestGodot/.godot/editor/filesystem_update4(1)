@@ -1,0 +1,12 @@
+res://World/world.tscn
+res://Player/player.gd
+res://Player/player.tscn
+res://Enemies/Snail/snail.tscn
+res://Enemies/Slug/Slug.tscn
+res://Enemies/Slug/Slug.gd
+res://Enemies/Bees/bees.tscn
+res://Enemies/Bee/bee.tscn
+res://Enemies/PiranahPlant/piranah_plant.tscn
+res://Pickups/carrot.tscn
+res://Pickups/Carrot/carrot.tscn
+res://Pickups/Star/star.tscn

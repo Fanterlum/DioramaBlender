@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1p76cat0ivw0"]
+
+[ext_resource type="PackedScene" uid="uid://cryy07qpdbheu" path="res://Source File/Props/Props_Bear_Trap.glb" id="1_ubsjw"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_ji5mf"]
+
+[node name="Props_Bear_Trap" instance=ExtResource("1_ubsjw")]
+
+[node name="Props_Bear_Trap2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_ji5mf")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwft32e7mdufl"]
+
+[ext_resource type="PackedScene" uid="uid://gmc1rds5sq31" path="res://3D Models/Wall/wall_rail_block_A.tscn" id="1_e0epr"]
+[ext_resource type="Material" uid="uid://bf142en0mv2bk" path="res://Material/Grid_01_C.tres" id="2_lonj2"]
+
+[node name="Wall_Rail_Block" instance=ExtResource("1_e0epr")]
+
+[node name="Wall_Rail_Block2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_lonj2")

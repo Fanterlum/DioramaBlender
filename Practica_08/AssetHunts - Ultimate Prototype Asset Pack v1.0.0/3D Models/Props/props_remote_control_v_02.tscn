@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ocarxsedyxhd"]
+
+[ext_resource type="PackedScene" uid="uid://h67ut2cacebr" path="res://Source File/Props/Props_Remote_Control_v02.glb" id="1_wph72"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_habdy"]
+
+[node name="Props_Remote_Control_v02" instance=ExtResource("1_wph72")]
+
+[node name="Props_Remote_Control_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_habdy")

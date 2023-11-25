@@ -1,0 +1,107 @@
+[gd_scene load_steps=15 format=3 uid="uid://dy4554uucwhh3"]
+
+[ext_resource type="Texture2D" uid="uid://pe0j6hn6w5tv" path="res://Enemies/PiranahPlant/piranha-plant-attack.png" id="1_40odx"]
+[ext_resource type="Script" path="res://World/Script/piranah_plant.gd" id="1_275di"]
+[ext_resource type="Texture2D" uid="uid://j3b7x5pilwl3" path="res://Enemies/PiranahPlant/piranha-plant.png" id="1_ngqob"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ybue"]
+atlas = ExtResource("1_40odx")
+region = Rect2(0, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ar5fv"]
+atlas = ExtResource("1_40odx")
+region = Rect2(61, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijop4"]
+atlas = ExtResource("1_40odx")
+region = Rect2(122, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_na475"]
+atlas = ExtResource("1_40odx")
+region = Rect2(183, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvfd5"]
+atlas = ExtResource("1_ngqob")
+region = Rect2(0, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w5ptk"]
+atlas = ExtResource("1_ngqob")
+region = Rect2(61, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0pteg"]
+atlas = ExtResource("1_ngqob")
+region = Rect2(122, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_huj8n"]
+atlas = ExtResource("1_ngqob")
+region = Rect2(183, 0, 61, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vua6t"]
+atlas = ExtResource("1_ngqob")
+region = Rect2(244, 0, 61, 45)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yo2xw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ybue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ar5fv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ijop4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ijop4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na475")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na475")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na475")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvfd5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w5ptk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0pteg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_huj8n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vua6t")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 12.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_14iw1"]
+
+[node name="PiranahPlant" type="Area2D"]
+script = ExtResource("1_275di")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_yo2xw")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+scale = Vector2(1.18927, 2.01065)
+shape = SubResource("CircleShape2D_14iw1")
+
+[connection signal="body_entered" from="." to="." method="_on_PiranahPlant_body_entered"]

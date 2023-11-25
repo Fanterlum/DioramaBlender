@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5uih6qhix70q"]
+
+[ext_resource type="PackedScene" uid="uid://cl7sxkhgfkeq3" path="res://Source File/Props/Props_Pipe_01_A.glb" id="1_lirpg"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_j8p5w"]
+
+[node name="Props_Pipe_01_A" instance=ExtResource("1_lirpg")]
+
+[node name="Props_Pipe_01_A2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_j8p5w")

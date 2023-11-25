@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://clv8ui2752n6n"]
+
+[ext_resource type="PackedScene" uid="uid://1jvuygsfl4sy" path="res://Source File/Ladder/Ladder_01_B.glb" id="1_wjl3u"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_88flp"]
+
+[node name="Ladder_01_B" instance=ExtResource("1_wjl3u")]
+
+[node name="Ladder_01_B2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_88flp")

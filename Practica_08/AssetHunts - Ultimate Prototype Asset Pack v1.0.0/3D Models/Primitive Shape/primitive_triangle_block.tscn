@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://pf0sy8nhfvtf"]
+
+[ext_resource type="PackedScene" uid="uid://bbrsrlb1oy0td" path="res://Source File/Primitive Shape/Primitive_Triangle_Block.glb" id="1_agu6p"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_8i76h"]
+
+[node name="Primitive_Triangle_Block" instance=ExtResource("1_agu6p")]
+
+[node name="Primitive_Triangle_Block2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_8i76h")

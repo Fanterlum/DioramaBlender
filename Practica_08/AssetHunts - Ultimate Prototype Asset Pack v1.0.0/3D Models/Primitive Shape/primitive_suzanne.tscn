@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpli3ivefhx3b"]
+
+[ext_resource type="PackedScene" uid="uid://dnp1l4n7n1cuw" path="res://Source File/Primitive Shape/Primitive_Suzanne.glb" id="1_bpqme"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_2d6ov"]
+
+[node name="Primitive_Suzanne" instance=ExtResource("1_bpqme")]
+
+[node name="Primitive_Suzanne2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_2d6ov")

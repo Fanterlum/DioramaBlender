@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://yy5ohy83ffrg"]
+
+[ext_resource type="PackedScene" uid="uid://bvsocn7k7th1b" path="res://3D Models/Floor/floor_01x_01_A.tscn" id="1_tpey2"]
+[ext_resource type="Material" uid="uid://b1g5lnah3wojw" path="res://Material/Grid_01_B.tres" id="2_4i6hq"]
+
+[node name="Floor_01x01" instance=ExtResource("1_tpey2")]
+
+[node name="Floor_01x012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_4i6hq")

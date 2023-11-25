@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://3edl3qfmt5eh"]
+
+[ext_resource type="PackedScene" uid="uid://dn3h0p7unnhpo" path="res://Source File/Icon/Icon_Volume_v01.glb" id="1_yf3wb"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_vlsp2"]
+
+[node name="Icon_Volume_v01" instance=ExtResource("1_yf3wb")]
+
+[node name="Icon_Volume_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_vlsp2")

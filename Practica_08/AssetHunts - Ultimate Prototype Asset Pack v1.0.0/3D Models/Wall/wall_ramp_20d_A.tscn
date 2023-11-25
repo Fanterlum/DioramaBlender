@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3ojrgt8asqr5"]
+
+[ext_resource type="PackedScene" uid="uid://c5hg74u0dervn" path="res://Source File/Wall/Wall_Ramp_20D.glb" id="1_v5bnk"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_5eqc6"]
+
+[node name="Wall_Ramp_20D" instance=ExtResource("1_v5bnk")]
+
+[node name="Wall_Ramp_20D2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_5eqc6")

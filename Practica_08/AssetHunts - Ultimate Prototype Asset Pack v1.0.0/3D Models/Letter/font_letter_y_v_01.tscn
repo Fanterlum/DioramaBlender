@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw3rv2hcmu2m7"]
+
+[ext_resource type="PackedScene" uid="uid://d2yam0l088ld8" path="res://Source File/Letter/Font_Letter_Y_v01.glb" id="1_ue3aq"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://3D Models/Materials/Color_Palette_01.tres" id="2_fvyr8"]
+
+[node name="Font_Letter_Y_v01" instance=ExtResource("1_ue3aq")]
+
+[node name="Font_Letter_Y_V01" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_fvyr8")

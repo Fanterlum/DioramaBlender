@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://0bmnwxok2qdc"]
+
+[ext_resource type="PackedScene" uid="uid://dfn5ylm54m3ji" path="res://3D Models/Floor/floor_01x_01_tri_angle_v_01_A.tscn" id="1_sy2tx"]
+[ext_resource type="Material" uid="uid://bf142en0mv2bk" path="res://Material/Grid_01_C.tres" id="2_o32an"]
+
+[node name="Floor_01x01_Tri_Angle_v01" instance=ExtResource("1_sy2tx")]
+
+[node name="Floor_01x01_Tri_Angle_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_o32an")

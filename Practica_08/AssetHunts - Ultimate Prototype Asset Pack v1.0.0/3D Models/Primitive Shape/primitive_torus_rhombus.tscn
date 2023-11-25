@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://2lewembhvjhp"]
+
+[ext_resource type="PackedScene" uid="uid://c6c88widu03b2" path="res://Source File/Primitive Shape/Primitive_Torus_Rhombus.glb" id="1_k81i1"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_iiecs"]
+
+[node name="Primitive_Torus_Rhombus" instance=ExtResource("1_k81i1")]
+
+[node name="Primitive_Torus_Rhombus2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_iiecs")

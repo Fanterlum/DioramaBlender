@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://nkvn0inft1f5"]
+
+[ext_resource type="PackedScene" uid="uid://1axcn8q7jp1b" path="res://Source File/Icon/Icon_Mute_v01.glb" id="1_hjmpu"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_peof8"]
+
+[node name="Icon_Mute_v01" instance=ExtResource("1_hjmpu")]
+
+[node name="Icon_Mute_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_peof8")

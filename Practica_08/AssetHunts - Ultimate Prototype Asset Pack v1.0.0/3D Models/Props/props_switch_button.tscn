@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmxwsgnqm8dyo"]
+
+[ext_resource type="PackedScene" uid="uid://7iq261glnp0c" path="res://Source File/Props/Props_Switch_Button.glb" id="1_j4o8k"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_5qs5b"]
+
+[node name="Props_Switch_Button" instance=ExtResource("1_j4o8k")]
+
+[node name="Props_Switch_Button2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_5qs5b")

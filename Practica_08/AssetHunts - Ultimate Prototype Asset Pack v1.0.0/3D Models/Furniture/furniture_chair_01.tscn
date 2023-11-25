@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://okrr0rkcy7bj"]
+
+[ext_resource type="PackedScene" uid="uid://dpn3bfyuvnr35" path="res://Source File/Furniture/Furniture_Chair_01.glb" id="1_mkk7v"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://3D Models/Materials/Color_Palette_01.tres" id="2_gr3t6"]
+
+[node name="Furniture_Chair_01" instance=ExtResource("1_mkk7v")]
+
+[node name="Furniture_Chair_012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_gr3t6")

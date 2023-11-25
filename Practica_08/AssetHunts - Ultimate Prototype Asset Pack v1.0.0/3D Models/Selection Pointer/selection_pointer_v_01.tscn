@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlutctwofw0ri"]
+
+[ext_resource type="PackedScene" uid="uid://d5qb1jqo7goq" path="res://Source File/Selection Pointer/Selection_Pointer_v01.glb" id="1_vybsf"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_210x2"]
+
+[node name="Selection_Pointer_v01" instance=ExtResource("1_vybsf")]
+
+[node name="Selection_Pointer_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_210x2")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bv7skny76v6tr"]
+
+[ext_resource type="PackedScene" uid="uid://cf6a5lclcfcp2" path="res://Source File/Medieval Castle/Medieval_Castle_Block_01.glb" id="1_thgn7"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_bufo4"]
+
+[node name="Medieval_Castle_Block_01" instance=ExtResource("1_thgn7")]
+
+[node name="Medieval_Castle_Block_012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_bufo4")

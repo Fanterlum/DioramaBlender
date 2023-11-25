@@ -1,0 +1,8 @@
+res://World/world.tscn
+res://Pickups/Coin2D.gd
+res://Pickups/UI.gd
+res://World/start.tscn
+res://World/world2.tscn
+res://Pickups/Star/star.tscn
+res://Pickups/coin.tscn
+res://World/end.tscn

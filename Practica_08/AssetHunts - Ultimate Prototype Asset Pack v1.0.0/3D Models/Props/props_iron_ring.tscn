@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0cm5cq86j6o"]
+
+[ext_resource type="PackedScene" uid="uid://igfpi8ycw587" path="res://Source File/Props/Props_Iron_Ring.glb" id="1_ehb43"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_dxcav"]
+
+[node name="Props_Iron_Ring" instance=ExtResource("1_ehb43")]
+
+[node name="Props_Iron_Ring2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_dxcav")

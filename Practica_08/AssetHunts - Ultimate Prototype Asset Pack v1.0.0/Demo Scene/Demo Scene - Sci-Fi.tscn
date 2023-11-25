@@ -1,0 +1,161 @@
+[gd_scene load_steps=5 format=3 uid="uid://d1cxb27gh1uxn"]
+
+[ext_resource type="PackedScene" uid="uid://bpxp7duf3h3pw" path="res://3D Models/Sci-Fi Corridor/sci_fi_corridor_3_way_v01.tscn" id="1_iruth"]
+[ext_resource type="PackedScene" uid="uid://b6fnqjy7t43ar" path="res://3D Models/Sci-Fi Corridor/sci_fi_corridor_4_way_v01.tscn" id="2_uje17"]
+[ext_resource type="PackedScene" uid="uid://bfdbdbpx4i8ej" path="res://3D Models/Sci-Fi Corridor/sci_fi_corridor_gate_v01.tscn" id="3_8237x"]
+[ext_resource type="PackedScene" uid="uid://bqxwqkrsy5xhj" path="res://3D Models/Sci-Fi Corridor/sci_fi_corridor_v01.tscn" id="4_54eyx"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Sci-Fi_Corridor_3_Way_v01" parent="." instance=ExtResource("1_iruth")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10.8619, 0, -2.05579)
+
+[node name="Sci-Fi_Corridor_3_Way_v02" parent="." instance=ExtResource("1_iruth")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10.8619, 0, -18.5892)
+
+[node name="Sci-Fi_Corridor_4_Way_v01" parent="." instance=ExtResource("2_uje17")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 10.2049, 0, -2.0558)
+
+[node name="Sci-Fi_Corridor_4_Way_v02" parent="." instance=ExtResource("2_uje17")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 10.2049, 0, 17.4776)
+
+[node name="Sci-Fi_Corridor_4_Way_v03" parent="." instance=ExtResource("2_uje17")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.328536, 3.57628e-07, 17.4776)
+
+[node name="Sci-Fi_Corridor_4_Way_v04" parent="." instance=ExtResource("2_uje17")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.328536, 1.19209e-07, -2.05579)
+
+[node name="Sci-Fi_Corridor_Gate_v01" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 15.9823, -2.5034e-06, -2.0558)
+
+[node name="Sci-Fi_Corridor_Gate_v10" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.91546, 4.76837e-07, -18.5892)
+
+[node name="Sci-Fi_Corridor_Gate_v02" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 15.9823, -7.15256e-07, 17.4776)
+
+[node name="Sci-Fi_Corridor_Gate_v03" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 0, 20.255)
+
+[node name="Sci-Fi_Corridor_Gate_v05" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328535, 1.19209e-07, 23.255)
+
+[node name="Sci-Fi_Corridor_Gate_v08" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, 3.57628e-07, 12.7216)
+
+[node name="Sci-Fi_Corridor_Gate_v06" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 2.38419e-07, -10.8332)
+
+[node name="Sci-Fi_Corridor_Gate_v07" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328536, 0, -7.83319)
+
+[node name="Sci-Fi_Corridor_Gate_v09" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, 0, -21.3666)
+
+[node name="Sci-Fi_Corridor_v01" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.13816, 0, -2.05579)
+
+[node name="Sci-Fi_Corridor_v21" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.39524, 0, -2.05579)
+
+[node name="Sci-Fi_Corridor_v23" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -7.39524, -1.19209e-07, -2.05579)
+
+[node name="Sci-Fi_Corridor_v31" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.39524, 0, -18.5892)
+
+[node name="Sci-Fi_Corridor_v32" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -7.39524, 0, -18.5892)
+
+[node name="Sci-Fi_Corridor_v33" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.60476, 0, -18.5892)
+
+[node name="Sci-Fi_Corridor_v34" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.39524, 0, -18.5892)
+
+[node name="Sci-Fi_Corridor_v36" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.60476, 0, -18.5892)
+
+[node name="Sci-Fi_Corridor_v05" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.13816, 0, -2.0558)
+
+[node name="Sci-Fi_Corridor_v10" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 13.6716, 0, -2.0558)
+
+[node name="Sci-Fi_Corridor_v14" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 13.6716, 0, 17.4776)
+
+[node name="Sci-Fi_Corridor_Gate_v04" parent="." instance=ExtResource("3_8237x")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.10594, 4.76837e-07, 17.4776)
+
+[node name="Sci-Fi_Corridor_v16" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.13816, 2.38419e-07, 17.4776)
+
+[node name="Sci-Fi_Corridor_v15" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.13816, 2.38419e-07, 17.4776)
+
+[node name="Sci-Fi_Corridor_v02" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328536, -1.19209e-07, -5.52249)
+
+[node name="Sci-Fi_Corridor_v22" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -1.19209e-07, -5.52249)
+
+[node name="Sci-Fi_Corridor_v24" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -1.19209e-07, -8.52249)
+
+[node name="Sci-Fi_Corridor_v25" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -1.19209e-07, -11.5225)
+
+[node name="Sci-Fi_Corridor_v26" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -1.19209e-07, -14.5225)
+
+[node name="Sci-Fi_Corridor_v27" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -1.19209e-07, 11.0109)
+
+[node name="Sci-Fi_Corridor_v28" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -1.19209e-07, 8.01091)
+
+[node name="Sci-Fi_Corridor_v29" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, 0, 5.01091)
+
+[node name="Sci-Fi_Corridor_v30" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.8619, -2.38419e-07, 2.01091)
+
+[node name="Sci-Fi_Corridor_v03" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328536, 0, 2.01091)
+
+[node name="Sci-Fi_Corridor_v04" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328536, 0, 5.01091)
+
+[node name="Sci-Fi_Corridor_v17" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328535, 0, 8.01091)
+
+[node name="Sci-Fi_Corridor_v18" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328535, 0, 11.0109)
+
+[node name="Sci-Fi_Corridor_v19" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328535, 0, 14.0109)
+
+[node name="Sci-Fi_Corridor_v20" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.328535, 2.38419e-07, 21.5443)
+
+[node name="Sci-Fi_Corridor_v06" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 2.38419e-07, 2.0109)
+
+[node name="Sci-Fi_Corridor_v07" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 0, 5.0109)
+
+[node name="Sci-Fi_Corridor_v11" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 0, 8.0109)
+
+[node name="Sci-Fi_Corridor_v12" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 0, 11.0109)
+
+[node name="Sci-Fi_Corridor_v13" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 0, 14.0109)
+
+[node name="Sci-Fi_Corridor_v08" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 2.38419e-07, -8.52249)
+
+[node name="Sci-Fi_Corridor_v09" parent="." instance=ExtResource("4_54eyx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.2049, 2.38419e-07, -5.5225)

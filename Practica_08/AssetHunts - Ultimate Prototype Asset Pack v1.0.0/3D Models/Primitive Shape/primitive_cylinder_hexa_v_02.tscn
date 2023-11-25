@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqr4cdhk67eau"]
+
+[ext_resource type="PackedScene" uid="uid://bhu8ate56kqvw" path="res://Source File/Primitive Shape/Primitive_Cylinder_Hexa_v02.glb" id="1_c41u1"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_s2g80"]
+
+[node name="Primitive_Cylinder_Hexa_v02" instance=ExtResource("1_c41u1")]
+
+[node name="Primitive_Cylinder_Hexa_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_s2g80")

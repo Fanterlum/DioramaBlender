@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmk5gqbkw1gwi"]
+
+[ext_resource type="PackedScene" uid="uid://vxdsaxjdimob" path="res://Source File/Icon/Icon_Gamepad_Buttons_v01_C.glb" id="1_fwe0m"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_1nis2"]
+
+[node name="Icon_Gamepad_Buttons_v01_C" instance=ExtResource("1_fwe0m")]
+
+[node name="Icon_Gamepad_Buttons_v01_C2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_1nis2")

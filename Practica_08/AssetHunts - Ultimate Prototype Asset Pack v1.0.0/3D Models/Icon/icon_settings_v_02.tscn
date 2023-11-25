@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://crljyn4xh36xm"]
+
+[ext_resource type="PackedScene" uid="uid://i2a8jjfunkku" path="res://Source File/Icon/Icon_Settings_v02.glb" id="1_th68b"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_sppvg"]
+
+[node name="Icon_Settings_v02" instance=ExtResource("1_th68b")]
+
+[node name="Icon_Settings_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_sppvg")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b22853wms7gjk"]
+
+[ext_resource type="PackedScene" uid="uid://bmerfnd7bwt85" path="res://Source File/Props/Props_Tire.glb" id="1_3kq6j"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_lqycd"]
+
+[node name="Props_Tire" instance=ExtResource("1_3kq6j")]
+
+[node name="Props_Tire2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_lqycd")

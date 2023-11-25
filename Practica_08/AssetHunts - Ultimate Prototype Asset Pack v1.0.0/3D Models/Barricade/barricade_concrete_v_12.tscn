@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dar8yv8dysbbr"]
+
+[ext_resource type="PackedScene" uid="uid://v81aveff7phc" path="res://Source File/Barricade/Barricade_Concrete_v12.glb" id="1_dupwy"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://3D Models/Materials/Color_Palette_01.tres" id="2_l2ocr"]
+
+[node name="Barricade_Concrete_v12" instance=ExtResource("1_dupwy")]
+
+[node name="Barricade_Concrete_v122" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_l2ocr")

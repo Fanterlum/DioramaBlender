@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://is7btce7j6me"]
+
+[ext_resource type="PackedScene" uid="uid://bftikyu16u72t" path="res://3D Models/Wall/wall_window_A.tscn" id="1_7otur"]
+[ext_resource type="Material" uid="uid://b1g5lnah3wojw" path="res://Material/Grid_01_B.tres" id="2_vrvaf"]
+
+[node name="Wall_Window" instance=ExtResource("1_7otur")]
+
+[node name="Wall_Window2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_vrvaf")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://vctqmqf8bta4"]
+
+[ext_resource type="PackedScene" uid="uid://h8xv018vnpts" path="res://Source File/Floor/Floor_01x01_Outer_Curve_v01.glb" id="1_c0pub"]
+[ext_resource type="Material" uid="uid://rswy8tf5unq6" path="res://Material/Grid_01_A.tres" id="2_hggvj"]
+
+[node name="Floor_01x01_Outer_Curve_v01" instance=ExtResource("1_c0pub")]
+
+[node name="Floor_01x01_Outer_Curve_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_hggvj")

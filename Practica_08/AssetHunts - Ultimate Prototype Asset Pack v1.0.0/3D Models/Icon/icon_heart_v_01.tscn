@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://4n0o56ttgagh"]
+
+[ext_resource type="PackedScene" uid="uid://8tsf3ectvstk" path="res://Source File/Icon/Icon_Heart_v01.glb" id="1_ssjj6"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_bh11g"]
+
+[node name="Icon_Heart_v01" instance=ExtResource("1_ssjj6")]
+
+[node name="Icon_Heart_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_bh11g")

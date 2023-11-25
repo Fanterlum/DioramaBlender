@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3valalaofu66"]
+
+[ext_resource type="PackedScene" uid="uid://d244x0uakjawg" path="res://Source File/Animal/Animal_Horse.glb" id="1_ct0y6"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_xe848"]
+
+[node name="Animal_Horse" instance=ExtResource("1_ct0y6")]
+
+[node name="Animal_Horse2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_xe848")

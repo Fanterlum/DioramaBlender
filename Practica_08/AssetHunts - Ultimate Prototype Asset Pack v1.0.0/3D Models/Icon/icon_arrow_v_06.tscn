@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://24x5a8ka4yub"]
+
+[ext_resource type="PackedScene" uid="uid://bduhextil50hg" path="res://Source File/Icon/Icon_Arrow_v06.glb" id="1_w12dw"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_7bimn"]
+
+[node name="Icon_Arrow_v06" instance=ExtResource("1_w12dw")]
+
+[node name="Icon_Arrow_v062" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_7bimn")

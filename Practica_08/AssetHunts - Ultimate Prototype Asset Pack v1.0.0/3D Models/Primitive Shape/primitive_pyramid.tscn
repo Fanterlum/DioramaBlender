@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://x8pfut6277v"]
+
+[ext_resource type="PackedScene" uid="uid://tytm2omg75n" path="res://Source File/Primitive Shape/Primitive_Pyramid.glb" id="1_tjowi"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_mjt6b"]
+
+[node name="Primitive_Pyramid" instance=ExtResource("1_tjowi")]
+
+[node name="Primitive_Pyramid2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_mjt6b")

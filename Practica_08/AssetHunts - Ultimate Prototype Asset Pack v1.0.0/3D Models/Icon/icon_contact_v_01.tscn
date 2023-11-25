@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5vs1wfh1j72c"]
+
+[ext_resource type="PackedScene" uid="uid://bllnncdkyw7s1" path="res://Source File/Icon/Icon_Contact_v01.glb" id="1_xhcmv"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_f130l"]
+
+[node name="Icon_Contact_v01" instance=ExtResource("1_xhcmv")]
+
+[node name="Icon_Contact_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_f130l")

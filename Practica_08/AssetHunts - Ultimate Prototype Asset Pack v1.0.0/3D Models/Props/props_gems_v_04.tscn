@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds6uw04p7ac4e"]
+
+[ext_resource type="PackedScene" uid="uid://bxbr73fm4wb60" path="res://Source File/Props/Props_Gems_v04.glb" id="1_iyc3u"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_nm1d4"]
+
+[node name="Props_Gems_v04" instance=ExtResource("1_iyc3u")]
+
+[node name="Props_Gems_v042" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_nm1d4")

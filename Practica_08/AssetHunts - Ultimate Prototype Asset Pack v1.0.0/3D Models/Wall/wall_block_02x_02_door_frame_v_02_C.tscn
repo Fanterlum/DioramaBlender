@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbfp3suevwur8"]
+
+[ext_resource type="PackedScene" uid="uid://b3i6n5lvc3aqe" path="res://3D Models/Wall/wall_block_02x_02_door_frame_v_02_A.tscn" id="1_qy4em"]
+[ext_resource type="Material" uid="uid://bf142en0mv2bk" path="res://Material/Grid_01_C.tres" id="2_1oxa3"]
+
+[node name="Wall_Block_02x02_Door_Frame_v02" instance=ExtResource("1_qy4em")]
+
+[node name="Wall_Block_02x02_Door_Frame_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_1oxa3")

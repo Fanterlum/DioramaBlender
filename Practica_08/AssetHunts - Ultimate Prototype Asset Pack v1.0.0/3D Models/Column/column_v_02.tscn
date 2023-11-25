@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dugxiey7ydwi5"]
+
+[ext_resource type="PackedScene" uid="uid://cga3c1aqfhfx" path="res://Source File/Column/Column_v02.glb" id="1_axp0a"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://3D Models/Materials/Color_Palette_01.tres" id="2_yrapq"]
+
+[node name="Column_v02" instance=ExtResource("1_axp0a")]
+
+[node name="Column_v022" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_yrapq")

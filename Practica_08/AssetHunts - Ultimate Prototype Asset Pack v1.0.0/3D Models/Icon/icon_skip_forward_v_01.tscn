@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvghxxf8owik2"]
+
+[ext_resource type="PackedScene" uid="uid://cbmeq73pt4e55" path="res://Source File/Icon/Icon_Skip_Forward_v01.glb" id="1_131d1"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_qc4kq"]
+
+[node name="Icon_Skip_Forward_v01" instance=ExtResource("1_131d1")]
+
+[node name="Icon_Skip_Forward_v012" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_qc4kq")

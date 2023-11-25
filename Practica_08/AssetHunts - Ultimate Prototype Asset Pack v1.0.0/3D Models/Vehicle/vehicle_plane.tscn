@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdu64k48n8p1k"]
+
+[ext_resource type="PackedScene" uid="uid://cexvbpmneneng" path="res://Source File/Vehicle/Vehicle_Plane.glb" id="1_oxlhu"]
+[ext_resource type="Material" uid="uid://c4l6p4mjaw3tf" path="res://Material/Color_Palette_01.tres" id="2_wral2"]
+
+[node name="Vehicle_Plane" instance=ExtResource("1_oxlhu")]
+
+[node name="Vehicle_Plane2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_wral2")

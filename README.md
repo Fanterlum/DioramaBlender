@@ -22,3 +22,13 @@
 ![Animation](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/02ec6822-e244-4b89-879b-891614f7fa06)
 ![Screenshot_2](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/758f19fb-e179-47e4-a176-da397f71bbc4)
 ![Screenshot_1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/74ae0c4f-9523-4277-9d81-a488f18d4bd0)
+
+# Practica 07 Juego Plataformero primero 2D SunnyForest
+![Screenshot_2](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/d02cbee5-a667-4390-9d6f-cbe08f1df861)
+![Screenshot_1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/23dbeacd-2238-4d80-aeb1-4d48aaffc448)
+![Practica_07 ‐ Hecho con Clipchamp](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/2b718289-0d13-4b22-b627-a2dd4618f5ce)
+
+# Practica 08 Juego 3D primero, Prototype
+![Screenshot_2](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/46ba94c1-9324-4611-bdd0-513dbb7ecb71)
+![Screenshot_1](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/64b27c85-91e5-4e63-97ff-5cc62aae76b4)
+![Practica_08 ‐ Hecho con Clipchamp](https://github.com/Fanterlum/SimulacionXcomputadora_Vicente_Gonzalez/assets/73490758/fa3855b3-467e-45c4-ba07-8a638da9fe87)
